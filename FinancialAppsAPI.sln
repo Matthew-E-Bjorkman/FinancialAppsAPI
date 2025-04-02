@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialAppsAPI", "FinancialAppsAPI\FinancialAppsAPI.csproj", "{A64C8112-66D9-4DBB-9655-E168849A5AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp", "BudgetApp\BudgetApp.csproj", "{CA48256A-6803-4BBC-8BA0-03259BDDA2C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A64C8112-66D9-4DBB-9655-E168849A5AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64C8112-66D9-4DBB-9655-E168849A5AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64C8112-66D9-4DBB-9655-E168849A5AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64C8112-66D9-4DBB-9655-E168849A5AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA48256A-6803-4BBC-8BA0-03259BDDA2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA48256A-6803-4BBC-8BA0-03259BDDA2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA48256A-6803-4BBC-8BA0-03259BDDA2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA48256A-6803-4BBC-8BA0-03259BDDA2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

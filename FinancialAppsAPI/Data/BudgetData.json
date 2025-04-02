@@ -1,0 +1,74 @@
+{
+  "budget" : {
+    "income" : [
+      {
+        "name": "salary",
+        "frequency": "biweekly",
+        "amount": 6000
+      },
+      {
+        "name": "side-hustle",
+        "frequency": "monthly",
+        "amount": 25
+      }
+    ],
+    "deductions" : [
+      {
+        "name": "401(k)",
+        "category": "investment",
+        "type": "percentage",
+        "value": "3"
+      },
+      {
+        "name": "federal income tax",
+        "category": "tax",
+        "type": "algorithm",
+        "value": "federal"
+      },
+      {
+        "name": "Medicare & Social Security",
+        "category": "tax",
+        "type": "algorithm",
+        "value": "fica"
+      },
+      {
+        "name": "state income tax",
+        "category": "tax",
+        "type": "algorithm",
+        "value": "IL"
+      }
+    ],
+    "expenses" : [
+      {
+        "name": "rent",
+        "category": "fixed",
+        "amount": 2000
+      },
+      {
+        "name": "video games",
+        "category": "discretionary",
+        "amount": 200
+      }
+    ],
+    "investments" : [
+      {
+        "name": "Roth IRA",
+        "frequency": "annual",
+        "amount": 7000
+      },
+      {
+        "name": "brokerage",
+        "frequency": "biweekly",
+        "amount": 300
+      }
+    ],
+    "savings": [
+      {
+        "name": "emergency fund",
+        "current_amount": 20000,
+        "frequency": "biweekly",
+        "amount": 200
+      }
+    ]
+  }
+}
