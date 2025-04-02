@@ -1,0 +1,29 @@
+{
+  "user_info": {
+    "state": "IL",
+    "age": 27,
+    "retirement_age": 55
+  },
+  "holdings": [
+    {"name":"savings", "amount": 20000, "interest_rate": 3.8},
+    {"name":"investment", "amount": 38000, "interest_rate": 7.2},
+    {"name":"misc", "amount": 4000, "interest_rate": 0}
+  ],
+  "income_sources" : [
+    {"name":"Salary","amount":50000},
+    {"name":"Blog Donations","amount":60}
+  ],
+  "expenditures" : [
+    {"name":"401(k)","category":"investment","pre-tax":true,"calc_type":"percentage","calc_value":"3"},
+    
+    {"name":"Insurance","category":"insurance","pre-tax":true,"calc_type":"flat","amount": 155},
+    
+    {"name":"Rent","category":"fixed","calc_type":"flat","amount": 2080},
+
+    {"name":"Magic the Gathering","category":"discretionary","calc_type":"flat","amount": 2080},
+
+    {"name":"Roth IRA","category":"investment","calc_type":"flat","amount": 583},
+
+    {"name":"Emergency Fund","category":"savings","calc_type":"flat","amount": 250}
+  ]
+}

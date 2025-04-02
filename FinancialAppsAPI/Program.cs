@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddSingleton<IConfiguration, ConfigurationManager>();
 
 var app = builder.Build();
 
@@ -38,7 +37,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapPost("/budget", () =>
 {
-    var budgetEngine = new BudgetEngine();
+    var budgetEngine = new BudgetCalculator();
     return budgetEngine.Run();
 });
 
